@@ -182,9 +182,28 @@ body .navbar .container .nav-circle{
 
 @media (max-width: 600px) {
   .horizontal {
-    padding: 16px 8px;
-    border-radius: 18px;
-    max-width: 98vw;
+    padding: 10px 4px;
+    border-radius: 12px;
+    max-width: 99vw;
+  }
+  .name-card .name {
+    font-size: 2rem;
+  }
+  .countdown .circle {
+    width: 48px;
+    height: 48px;
+  }
+  .countdown .circle span {
+    font-size: 1.1rem;
+  }
+  #timedate h2,
+  #rsvp h2,
+  #thankyou h2 {
+    font-size: 1.3rem;
+  }
+  #timedate .card-body h4,
+  #thankyou h4 {
+    font-size: 1.1rem;
   }
 }
 
