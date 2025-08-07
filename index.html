@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Great+Vibes&display=swap" rel="stylesheet">
+    <title>Maimbau Baralek</title>
+</head>
+<body>
+    <section id="home" class="hero">
+      <section class="text-center py-5 bg-white">
+        <p class="fs-5">Kepada Yth.</p>
+        <h2 id="nama-tamu" class="fw-bold text-primary">Tamu Undangan</h2>
+        <p class="fs-6">Dengan hormat, kami mengundang bapak/ibu/saudara/i untuk hadir di resepsi pernikahan 
+          pada tanggal 17 Agustus 2025
+        </p>
+      </section>
+    <h1 class="display-4 name">Surya & Tia</h1>
+    <p class="lead">Akan melangsungkan pernikahan pada:</p>
+    <p><strong>16 Agustus 2025</strong></p>
+    <div id="countdown" class="countdown">
+      <div class="circle"><span id="days"><div class="label">Hari</div></span></div>
+      <div class="circle"><span id="hours"><div class="label">Jam</div></span></div>
+      <div class="circle"><span id="minutes"><div class="label">Menit</div></span></div>
+      <div class="circle"><span id="seconds"><div class="label">Detik</div></span></div>
+    </div>
+    <a href="#timedate" class="btn btn-primary btn-lg btn-hero">Lihat Undangan</a>
+  </section>
+
+  <!-- fixed Navbar -->
+    <nav id="mainNavbar" class="navbar navbar-light ">
+      <div class="container justify-content-center gap-4">
+        <span class="nav-circle">
+          <a class="nav-link" href="#home"><i class="bi bi-house-door-fill"></i></a>
+        </span>
+        <span class="nav-circle">
+          <a href="#timedate" class="nav-link"><i class="bi bi-calendar-event-fill"></i></a>
+        </span>
+        <span class="nav-circle">
+          <a class="nav-link" href="#lokasi"><i class="bi bi-geo-alt-fill"></i></a>
+        </span>
+        <span class="nav-circle">
+          <a class="nav-link" href="#rsvp"><i class="bi bi-envelope-fill"></i></a>
+        </span>
+        <span class="nav-circle">
+          <a class="nav-link" href="#gift"><i class="bi bi-gift-fill"></i></a>
+        </span>
+      </div>
+    </nav>
+
+<!-- section tanggal dan waktu -->
+<section id="timedate" class="d-flex align-items-center justify-content-center text-center bg-light">
+  
+  <div class="container">
+    <h2 class="fw-bold mb-0">Assalamualaikum Warrahmatullahi Wabarakatuh</h2>
+    <p class="mb-0">Maha suci Allah Subhanallahu wa Ta'ala yang telah menaciptakan Makhluk-Nya berpasang-pasangan.</p>
+    <p>Ya Allah perkenankanlah putra-putri kami mengucapkan ikrar suci dalam ikatan pernikahan</p>
+    <div class="row justify-content-center g-4">
+      <div class="container my-5">
+        <div class="row align-items-center justify-content-center g-0">
+          <!-- Kiri: Nama & Keterangan -->
+          <div class="col-12 col-md-3 text-center text-md-end pe-md-4 name-card">
+            <h1 class="display-4 name">Surya Zaida</h1>
+            <p class="mb-0">Anak ke dua dari Bapak Zaidil Fitri (alm) & ibu Darlianis</p>
+          </div>
+          <!-- & -->
+          <div class="col-12 col-md-3 text-center  name-card">
+            <h1 class="display-4 name">&</h1>
+          </div>
+          <!-- Kanan: Nama & Keterangan -->
+          <div class="col-md-3 text-center  name-card">
+            <h1 class="display-4 name">Zaltia Agustin, S.Pt</h1>
+            <p class="mb-0">Anak ke satu dari Bapak Afrizal (Dt Makjo Basa) & ibu Kartina</p>
+          </div>
+        </div>
+      </div>
+      
+      <h2 class="fw-bold mb-5">Yang InsyaAllah akan dilaksanakan Pada: </h2>
+      <!-- Akad Nikah -->
+      <div class="col-md-5">
+        <div class="card shadow border-0 h-100">
+          <div class="card-body py-4">
+            <h4 class="mb-3"><i class="bi bi-heart-fill text-danger me-2"></i>Akad Nikah</h4>
+            <p><i class="bi bi-calendar3 me-2 text-primary"></i>Sabtu, 16 Agustus 2025</p>
+            <p><i class="bi bi-clock me-2 text-success"></i>14:00 WIB - Sampai Selesai</p>
+            <p><i class="bi bi-geo-alt-fill text-danger"></i>Sungai Karuh Balah Aie Utara, Kec. VII Koto Sungai Sarik</p>
+          </div>
+        </div>
+      </div>
+      <!-- Resepsi -->
+      <div class="col-md-5">
+        <div class="card shadow border-0 h-100">
+          <div class="card-body py-4">
+            <h4 class="mb-3"><i class="bi bi-stars text-warning me-2"></i>Resepsi Pernikahan</h4>
+            <p><i class="bi bi-calendar3 me-2 text-primary"></i>Minggu, 17 Agustus 2025</p>
+            <p><i class="bi bi-clock me-2 text-success"></i>10:00 WIB - Sampai Selesai</p>
+            <p><i class="bi bi-geo-alt-fill text-danger"></i>Lubuk Simbung Pasa Pakandangan, Kec. Enam Lingkung</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+</section>
+
+  <section class="d-flex align-items-center justify-content-center text-center bg-light" id="lokasi">
+    <div class="location-box">
+      <div class="horizontal">
+        <div class="location-tag">
+          <img src="images/location.png" alt="">
+          <h1>Lokasi Pesta</h1>
+        </div >
+        <a class="location-detail" href="https://maps.app.goo.gl/CVAJvDuiMCVHrSMk6">Lubuk Simbung Pasa Pakandangan, Kec. Enam Lingkung</a>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1026.6215546710937!2d100.24674013170737!3d-0.6235313762458075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sid!2sid!4v1754055007922!5m2!1sid!2sid"
+         width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </section>
+
+<section id="rsvp" class="d-flex align-items-center justify-content-center bg-white" style="min-height: 100vh;">
+  <div class="container">
+    <h2 class="fw-bold text-center mb-4">Konfirmasi Kehadiran</h2>
+    <p class="text-center mb-5">Kami sangat berbahagia apabila Bapak/Ibu/Saudara/i berkenan hadir di hari istimewa kami. Silakan isi formulir berikut untuk konfirmasi kehadiran.</p>
+
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <!-- Form RSVP -->
+        <form id="commentForm" action="https://formsubmit.co/EMAIL_KAMU" method="POST" class="card shadow border-0 p-4 bg-light mb-4">
+          
+          <!-- Nama -->
+          <div class="mb-3">
+            <label for="nama" class="form-label">Nama</label>
+            <input type="text" class="form-control" id="nama" name="Nama" placeholder="Masukkan nama Anda" required>
+          </div>
+
+          <!-- Kehadiran -->
+          <div class="mb-3">
+            <label class="form-label">Apakah Anda akan hadir?</label>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="Kehadiran" id="hadir" value="Hadir" required>
+              <label class="form-check-label" for="hadir">Hadir</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="Kehadiran" id="tidak" value="Tidak Hadir">
+              <label class="form-check-label" for="tidak">Tidak Hadir</label>
+            </div>
+          </div>
+
+          <!-- Jumlah Tamu -->
+          <div class="mb-3">
+            <label for="jumlah" class="form-label">Jumlah Tamu yang Hadir</label>
+            <input type="number" class="form-control" id="jumlah" name="Jumlah Tamu" min="1" max="10" required>
+          </div>
+
+          <!-- Ucapan -->
+          <div class="mb-3">
+            <label for="message" class="form-label">Ucapan atau Doa</label>
+            <textarea class="form-control" id="message" name="Ucapan" rows="3" placeholder="Tulis pesan"></textarea>
+          </div>
+
+          <!-- Tombol Submit -->
+          <div class="d-grid">
+            <button type="submit" class="btn btn-primary btn-lg">
+              <i class="bi bi-send me-2"></i>Kirim Konfirmasi
+            </button>
+          </div>
+
+        </form>
+
+        <!-- List Komentar -->
+        <div class="card shadow-sm border-0 p-4 bg-light">
+          <h5 class="mb-3 text-center fw-bold">Ucapan dan Doa yang Sudah Masuk</h5>
+          <div id="commentList" class="overflow-auto" style="max-height: 300px;">
+            <!-- Komentar dari Firebase akan tampil di sini -->
+            <p class="text-muted text-center">Belum ada ucapan masuk</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- gift -->
+<section id="gift" class="position-relative d-flex align-items-center justify-content-center bg-light text-center px-3" style="min-height: 100vh;">
+  <div class="container">
+    <h2 class="fw-bold mb-3"><i class="bi bi-gift-fill text-danger me-2"></i>Kirim Hadiah</h2>
+    <p class="fs-5 mb-5">Jika Bapak/Ibu/Saudara/i berhalangan hadir namun ingin tetap berbagi kebahagiaan, kami menyediakan informasi rekening berikut sebagai alternatif tanda kasih yang tulus dan penuh makna.</p>
+
+    <div class="row justify-content-center g-4">
+      <!-- Rekening 1 -->
+      <div class="col-md-5">
+        <div class="card shadow-sm border-0 h-100">
+          <div class="card-body py-4">
+            <h5 class="fw-bold mb-2"><i class="bi bi-bank2 text-primary me-2"></i>Bank BRI</h5>
+            <p class="fs-5 mb-1" id="rek1">548901014399533</p>
+            <p class="text-muted">Surya Zaida</p>
+            <button class="btn btn-outline-primary btn-sm" onclick="copyText('rek1')">
+              <i class="bi bi-clipboard me-1"></i>Salin Nomor
+            </button>
+          </div>
+        </div>
+      </div>
+
+    <!-- Ucapan di bawah -->
+    <div class="mt-5">
+      <p class="text-muted fst-italic">Terima kasih atas perhatian, kasih sayang, dan doa restunya 🙏</p>
+    </div>
+  </div>
+
+  <!-- Ornamen bunga SVG kanan bawah -->
+  <img src="https://www.svgrepo.com/show/445963/flower.svg" alt="flower" class="position-absolute end-0 bottom-0" style="width: 100px; opacity: 0.08;">
+</section>
+
+
+<!-- footer -->
+<footer id="thankyou" class="text-center text-dark d-flex align-items-center justify-content-center">
+  <div class="container">
+    <div class="px-3 py-5">
+      <h2 class="fw-bold mb-4"><i class="bi bi-heart-fill text-danger me-2"></i>Terima Kasih</h2>
+      <p class="fs-5 mb-3">Merupakan kehormatan dan kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/i berkenan hadir dan memberikan doa restu.</p>
+      <p class="fs-5 mb-1">Hormat kami yang menanti: </p>
+      <p class="fs-5 mb-3">Keluarga besar Bapak Zaidil Fitri dan Ibu Darlianis</p>
+    </div>
+  </div>
+</footer>
+
+
+  <!-- Bootstrap Bundle JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Countdown Script -->
+  <script>
+      const urlParams = new URLSearchParams(window.location.search);
+      const nama = urlParams.get('to');
+
+      if (nama) {
+        const decodedNama = decodeURIComponent(nama.replace(/\+/g, ' '));
+        
+        // Tampilkan ke bagian teks
+        const namaTampil = document.getElementById('nama-tamu');
+        if (namaTampil) namaTampil.textContent = decodedNama;
+
+        // Isi otomatis ke form RSVP
+        const namaForm = document.getElementById('nama');
+        if (namaForm) namaForm.value = decodedNama;
+      }
+
+
+    const targetDate = new Date("2025-08-16T08:14:00").getTime();
+    const countdown = document.getElementById("countdown");
+
+    const updateCountdown = () => {
+      const now = new Date().getTime();
+      const distance = targetDate - now;
+
+      if (distance < 0) {
+        countdown.innerHTML = "Acara telah berlangsung.";
+        return;
+      }
+
+      const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+      // countdown.innerHTML = `${days} Hari ${hours} Jam ${minutes} Menit ${seconds} Detik`;
+      document.getElementById("days").textContent = days;
+      document.getElementById("hours").textContent = hours;
+      document.getElementById("minutes").textContent = minutes;
+      document.getElementById("seconds").textContent = seconds;
+    };
+
+    updateCountdown();
+    setInterval(updateCountdown, 1000);
+
+      const navbar = document.getElementById("mainNavbar");
+      const targetSection = document.getElementById("timedate");
+
+      window.addEventListener("scroll", () => {
+        const triggerPoint = targetSection.offsetTop - 50;
+        if (window.scrollY >= triggerPoint) {
+          navbar.style.display = "flex";
+        } else {
+          navbar.style.display = "none";
+        }
+      });
+  </script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    <!-- Firebase SDK -->
+<script src="https://www.gstatic.com/firebasejs/9.6.10/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.6.10/firebase-database-compat.js"></script>
+
+<script>
+  // Konfigurasi Firebase
+  const firebaseConfig = {
+    apiKey: "AIzaSyAi96t07fi_691PL1wimPACEuaSxJcf9rc",
+    authDomain: "undanganweb-1d792.firebaseapp.com",
+    databaseURL: "https://undanganweb-1d792-default-rtdb.asia-southeast1.firebasedatabase.app",
+    projectId: "undanganweb-1d792",
+    storageBucket: "undanganweb-1d792.appspot.com",
+    messagingSenderId: "866935031390",
+    appId: "1:866935031390:web:1e64e7e1098fb4956596cf"
+  };
+
+  // Inisialisasi Firebase
+  firebase.initializeApp(firebaseConfig);
+  const db = firebase.database();
+
+  // Menangani form RSVP atau komentar
+  document.getElementById("commentForm").addEventListener("submit", function (e) {
+    e.preventDefault();
+    const name = document.getElementById("name").value;
+    const message = document.getElementById("message").value;
+
+    const newCommentRef = db.ref("comments").push();
+    newCommentRef.set({
+      name: name,
+      message: message,
+      timestamp: Date.now()
+    });
+
+    this.reset();
+  });
+
+  // Menampilkan komentar
+  const commentList = document.getElementById("commentList");
+  db.ref("comments").on("child_added", function (snapshot) {
+    const data = snapshot.val();
+    const div = document.createElement("div");
+    div.className = "p-2 mb-2 rounded bg-light";
+    div.innerHTML = `<strong>${data.name}</strong><br>${data.message}`;
+    commentList.prepend(div);
+  });
+</script>
+
+  </body>
+</html>
