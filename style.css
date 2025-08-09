@@ -109,7 +109,7 @@ html {
 
 body .navbar {
   position: fixed;
-  top: 80%;
+  top: 95%;
   left: 0;
   right: 0;
   z-index: 999;
