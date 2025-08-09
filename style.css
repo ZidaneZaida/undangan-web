@@ -121,8 +121,6 @@ body .navbar {
 
 body .navbar .container .nav-circle{
   border-radius: 50%;
-  height: 100px;
-  width: 100px;
   background-color: rgb(170, 135, 103);
 }
 
@@ -130,23 +128,30 @@ body .navbar .container .nav-circle{
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 40px;
-  height: 40px;
   background: linear-gradient(135deg, #f8f9fa 60%, #e0c3fc 100%);
   border-radius: 50%;
-  box-shadow: 0 2px 12px rgba(90,24,154,0.10);
-  margin: 0 10px;
-  transition: background 0.3s, box-shadow 0.3s, transform 0.2s;
+  box-shadow: 0 2px 8px rgba(90,24,154,0.10);
   border: 1px solid #aa8767;
+  transition: background 0.3s, box-shadow 0.3s, transform 0.2s;
+  margin: 0 2px;
 }
 
 .nav-circle .nav-link {
-  font-size: 2.5rem; /* atau sesuaikan, misal 2.2rem */
-  line-height: 1;
-  vertical-align: middle; color: #5a189a;
-  padding: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding: 0;
   border-radius: 50%;
+  color: #5a189a;
+  font-size: 1.3rem;
   transition: color 0.2s;
+}
+
+.nav-circle .nav-link i {
+  font-size: 1.3rem;
+  line-height: 1;
 }
 
 .nav-circle:hover, .nav-circle:focus-within {
